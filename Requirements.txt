@@ -1,0 +1,19 @@
+We would like to migrate students from A system to B system, please create a Microsoft SQL Server ETL package (preferred Microsoft Visual Studio 2019 Community) which transforms TestData_Learners.csv file into TargetData_Learners.csv with the following requirements:
+1) Target file should have the following columns:
+Title - text
+FirstName - text
+LastName - text
+Profession - text
+Email Address - text - correct email address only
+University - int - id of university
+Course - int - id of course
+CreatedOn - datetime in following format 2012-04-23T18:25:43.511Z
+LastLogIn - datetime in following format 2012-04-23T18:25:43.511Z
+
+2) Only include students who were created after 1/1/2018 and who logged in at least once to the system.
+3) We no longer work with "University of Maryland, College Park" & "University of Iowa" so do not include them.
+4) Do not include students studying Economics as they will be uploaded elsewhere.
+
+Please write down all the question you have for either owners of the A system or the B system.
+
+Please have the solution ready for the second interview where you would be required to present your work.
