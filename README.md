@@ -28,6 +28,6 @@ TODO: Check input files exists and are accessible. NB: Unix file systems show th
 TODO: Check output file doesn't exist
 TODO: Improve error handling - more user-friendly, add run datetime
 TODO: add event handlers for basic logging, error handling, and for when the package fails
-
+TODO: file check script disabled due to problems casting/ parsing booleans between C# and SSIS 
 
 
