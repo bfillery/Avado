@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="94"
-  DTS:VersionGUID="{2FB5D335-C38C-4650-B779-6C23A8D3EF36}">
+  DTS:VersionBuild="101"
+  DTS:VersionGUID="{00CCC9D6-C689-4828-8F02-60EC7E50B617}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -33,7 +33,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\Bruce\Desktop\Avado\Temp\CourseMappings_20211121185233.csv">
+          DTS:ConnectionString="C:\Users\Bruce\source\repos\Avado\Temp\CourseMappings_20211121191233.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -42,7 +42,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Id"
-              DTS:DTSID="{6E3E71DF-B135-456E-A59F-62CC014C54B9}"
+              DTS:DTSID="{1B209BC0-F58B-483D-8B12-D3F64422E132}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -51,7 +51,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Course"
-              DTS:DTSID="{CB590C90-4111-4BD5-AD58-B42A7FADF69F}"
+              DTS:DTSID="{85190AB8-9BC0-47AC-ABFB-864B249976E7}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -73,7 +73,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\Bruce\Desktop\Avado\Errors\CourseMappings_20211121185233.err">
+          DTS:ConnectionString="C:\Users\Bruce\source\repos\Avado\Errors\CourseMappings_20211121191233.err">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -81,7 +81,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="Flat File Source Error Output Column"
-              DTS:DTSID="{6E1F1611-F0CE-403F-B9FD-AEA65440E922}"
+              DTS:DTSID="{91C705E9-B308-4E54-90C2-3BECA19D21F7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -89,7 +89,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{FDA7425D-F23B-4921-BFE8-0B5688CF848F}"
+              DTS:DTSID="{CE6951AE-F45B-42E8-9344-2814D2B77097}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -97,7 +97,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{BF709CBB-D026-417C-9190-CDCFCF59E5E7}"
+              DTS:DTSID="{0AA65ABA-25E6-41BE-85F9-5262BECEAED6}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -120,7 +120,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\Bruce\Desktop\Avado\Temp\TestData_Learners_20211121185233.csv">
+          DTS:ConnectionString="C:\Users\Bruce\source\repos\Avado\Temp\TestData_Learners_20211121191233.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -129,7 +129,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ID"
-              DTS:DTSID="{90A3DDCF-DCD6-494D-B80E-D261AAF32824}"
+              DTS:DTSID="{65B2E0F9-5B09-4085-AAE9-BD37B1126B80}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -138,7 +138,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Job Title"
-              DTS:DTSID="{22C1A01D-40CB-42C6-8E97-745BADF25ADE}"
+              DTS:DTSID="{DE84620B-541E-41F6-A6D8-32582BBC6F9A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -147,7 +147,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Email Address"
-              DTS:DTSID="{5CB7A61D-7DC9-4C4C-B605-FF6FED0CCBC5}"
+              DTS:DTSID="{2767B655-15B9-46B5-9041-F66927019147}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -156,7 +156,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FirstName LastName"
-              DTS:DTSID="{4CED78C4-3DAF-48DB-89A7-6C415C9023BC}"
+              DTS:DTSID="{2E708D8A-7C15-4BD6-8ACE-944F35A0DFFD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -165,7 +165,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="University"
-              DTS:DTSID="{38071FAA-C67D-4995-BEE8-A443D8AC4228}"
+              DTS:DTSID="{182E5C9E-50FF-4944-BFBE-53F40F8051C1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -174,7 +174,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Course"
-              DTS:DTSID="{D1477272-AE26-4F3B-8D6E-D08D360A1502}"
+              DTS:DTSID="{241F0A96-5B2B-4486-8C95-621EDC31E804}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -183,7 +183,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="timecreated"
-              DTS:DTSID="{F34AD7DC-9823-4C16-8507-86CFD399A1C9}"
+              DTS:DTSID="{CE2F3DC4-F51D-44CF-9D0F-CF1A2B0EB5F2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -192,7 +192,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="lastlogin"
-              DTS:DTSID="{2AABE6F1-358B-4DEF-AF2A-F6D5DC83094E}"
+              DTS:DTSID="{8F11D2EE-90E8-4265-B39F-456601FBD000}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -214,7 +214,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\Bruce\Desktop\Avado\Errors\TestData_Learners_20211121185233.err">
+          DTS:ConnectionString="C:\Users\Bruce\source\repos\Avado\Errors\TestData_Learners_20211121191233.err">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -222,7 +222,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="Flat File Source Error Output Column"
-              DTS:DTSID="{5C438F91-84AD-465D-BC89-533013E03C8C}"
+              DTS:DTSID="{21FD6B2D-7324-4C8F-BC71-BE03372D6399}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -230,7 +230,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{D3A4FF4B-4E8C-49FF-A06F-F8465C3A6F5C}"
+              DTS:DTSID="{AF81A5C9-53DC-4B63-8C65-E93205378D0E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -238,7 +238,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{61A8BCCB-D54B-4BAF-B4DA-9C53CF176E33}"
+              DTS:DTSID="{84C4F698-CCA7-4D2F-AE21-6BA0FF03BD6C}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -250,6 +250,8 @@
       DTS:Description="Connectin manager for output file"
       DTS:DTSID="{9D88407E-EF80-4EBB-8233-236EB041D8E7}"
       DTS:ObjectName="Output">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::OutputFilePath]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -259,7 +261,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\Bruce\Desktop\Avado\Output\TargetData_Learners.csv">
+          DTS:ConnectionString="C:\Users\Bruce\source\repos\Avado\Output\TargetData_Learners.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -268,7 +270,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Title"
-              DTS:DTSID="{DE4394B8-974C-4383-8477-618F31E8CB67}"
+              DTS:DTSID="{2B77F89F-F113-4DE9-AF08-11C81128F567}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -277,7 +279,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FirstName"
-              DTS:DTSID="{F2E40F52-181D-4D70-98A3-796EE053E690}"
+              DTS:DTSID="{0CEE597E-53CC-4B02-B4E8-E096A2A2595B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -286,7 +288,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LastName"
-              DTS:DTSID="{0D292CF3-6C56-4376-B08B-1D09C542D2B5}"
+              DTS:DTSID="{B3F759ED-479C-45AA-9CE5-5720E3CA02DA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -295,7 +297,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Profession"
-              DTS:DTSID="{D714363D-4BE4-420B-BC4D-1EA5CBDE7DC0}"
+              DTS:DTSID="{D6354E9E-8906-4062-95F7-3B666212F9BF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -304,7 +306,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Email Address"
-              DTS:DTSID="{DDE57A1D-0415-43F1-BB65-BE86D4126278}"
+              DTS:DTSID="{7297D23B-2802-4EA1-BD9B-40354D89E6F2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -312,7 +314,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="University"
-              DTS:DTSID="{ADE72290-6352-4626-B367-E99CAC23708E}"
+              DTS:DTSID="{1159EF0F-9990-45D1-9AD8-BDE1DC18D2AA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -320,7 +322,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Course"
-              DTS:DTSID="{98393C12-88E2-433D-A00F-0FAD598B80C1}"
+              DTS:DTSID="{F014B5BD-18FC-46E7-AB8E-D8802D4EB045}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -329,7 +331,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CreatedOn"
-              DTS:DTSID="{9EAE7BDE-BE67-4FE4-B28F-1A3CE5758B32}"
+              DTS:DTSID="{C5F6288D-D28A-4138-ABEA-F4DA47D58602}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -338,7 +340,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LastLogIn"
-              DTS:DTSID="{5236064B-534E-4A84-B4D3-EEA8F068A364}"
+              DTS:DTSID="{13A69C73-1D62-4B22-8713-0EC3616C1E34}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -361,7 +363,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\Bruce\Desktop\Avado\Temp\UniversityMappings_20211121185233.csv">
+          DTS:ConnectionString="C:\Users\Bruce\source\repos\Avado\Temp\UniversityMappings_20211121191233.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -370,7 +372,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Id"
-              DTS:DTSID="{9FE647BC-E8E9-4BDA-96B4-C0F55B39ADA5}"
+              DTS:DTSID="{841978F8-8B75-43B4-A1D0-6E080675E452}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -379,7 +381,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="University"
-              DTS:DTSID="{21E30ACC-0C4E-4C3F-A505-23CB8FEF3B1A}"
+              DTS:DTSID="{80954E5E-9B78-4335-8A6C-2A7DF2F6FACB}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -402,7 +404,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\Bruce\Desktop\Avado\Errors\UniversityMappings_20211121185233.err">
+          DTS:ConnectionString="C:\Users\Bruce\source\repos\Avado\Errors\UniversityMappings_20211121191233.err">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -410,7 +412,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="Flat File Source Error Output Column"
-              DTS:DTSID="{03CD29C6-7EF7-452F-B96B-9AA4AA01213E}"
+              DTS:DTSID="{526DBDE0-005A-4E67-A461-F3FF2E123848}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -418,7 +420,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{19CF40A5-D09D-4C5A-822B-68617589101D}"
+              DTS:DTSID="{44FA0FB0-11AE-49CC-926A-8865DDE6057D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -426,7 +428,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{689466AF-F0AC-4851-9B32-0F83F902B5C4}"
+              DTS:DTSID="{43B7CD1E-857C-42FD-BC5B-FA7E10A82D6A}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -442,7 +444,7 @@
       DTS:Required="True">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\Users\Bruce\Desktop\Avado\Input\CourseMappings.csv</DTS:Property>
+        DTS:Name="ParameterValue">C:\Users\Bruce\source\repos\Avado\Input\CourseMappings.csv</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -451,7 +453,7 @@
       DTS:ObjectName="ErrorsFolderPath">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\Users\Bruce\Desktop\Avado\Errors</DTS:Property>
+        DTS:Name="ParameterValue">C:\Users\Bruce\source\repos\Avado\Errors</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -470,7 +472,7 @@
       DTS:Required="True">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\Users\Bruce\Desktop\Avado\Input\TestData_Learners.csv</DTS:Property>
+        DTS:Name="ParameterValue">C:\Users\Bruce\source\repos\Avado\Input\TestData_Learners.csv</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -480,7 +482,7 @@
       DTS:Required="True">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\Users\Bruce\Desktop\Avado\Output\TargetData_Learners.csv</DTS:Property>
+        DTS:Name="ParameterValue">C:\Users\Bruce\source\repos\Avado\Output\TargetData_Learners.csv</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -489,7 +491,7 @@
       DTS:ObjectName="TempFolderPath">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\Users\Bruce\Desktop\Avado\Temp</DTS:Property>
+        DTS:Name="ParameterValue">C:\Users\Bruce\source\repos\Avado\Temp</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -499,7 +501,7 @@
       DTS:Required="True">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\Users\Bruce\Desktop\Avado\Input\UniversityMappings.csv</DTS:Property>
+        DTS:Name="ParameterValue">C:\Users\Bruce\source\repos\Avado\Input\UniversityMappings.csv</DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
   <DTS:Variables>
@@ -512,7 +514,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="AppErrorFile">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\Bruce\Desktop\Avado\Errors\Package_20211121185233.err</DTS:VariableValue>
+        DTS:DataType="8">C:\Users\Bruce\source\repos\Avado\Errors\Package_20211121191233.err</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -523,7 +525,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="AppLogFile">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\Bruce\Desktop\Avado\Temp\Package_20211121185233.log</DTS:VariableValue>
+        DTS:DataType="8">C:\Users\Bruce\source\repos\Avado\Temp\Package_20211121191233.log</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -534,7 +536,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="CoursesErrorFile">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\Bruce\Desktop\Avado\Errors\CourseMappings_20211121185233.err</DTS:VariableValue>
+        DTS:DataType="8">C:\Users\Bruce\source\repos\Avado\Errors\CourseMappings_20211121191233.err</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -554,7 +556,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="CoursesTempFile">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\Bruce\Desktop\Avado\Temp\CourseMappings_20211121185233.csv</DTS:VariableValue>
+        DTS:DataType="8">C:\Users\Bruce\source\repos\Avado\Temp\CourseMappings_20211121191233.csv</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -565,7 +567,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="FileDatestamp">
       <DTS:VariableValue
-        DTS:DataType="8">20211121185233</DTS:VariableValue>
+        DTS:DataType="8">20211121191233</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -576,7 +578,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="LearnersErrorFile">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\Bruce\Desktop\Avado\Errors\TestData_Learners_20211121185233.err</DTS:VariableValue>
+        DTS:DataType="8">C:\Users\Bruce\source\repos\Avado\Errors\TestData_Learners_20211121191233.err</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -596,7 +598,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="LearnersTempFile">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\Bruce\Desktop\Avado\Temp\TestData_Learners_20211121185233.csv</DTS:VariableValue>
+        DTS:DataType="8">C:\Users\Bruce\source\repos\Avado\Temp\TestData_Learners_20211121191233.csv</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -625,7 +627,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="UniversityErrorFile">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\Bruce\Desktop\Avado\Errors\UniversityMappings_20211121185233.err</DTS:VariableValue>
+        DTS:DataType="8">C:\Users\Bruce\source\repos\Avado\Errors\UniversityMappings_20211121191233.err</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -636,7 +638,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="UniversityTempFile">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\Bruce\Desktop\Avado\Temp\UniversityMappings_20211121185233.csv</DTS:VariableValue>
+        DTS:DataType="8">C:\Users\Bruce\source\repos\Avado\Temp\UniversityMappings_20211121191233.csv</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -660,152 +662,131 @@
           ReadOnlyVariables="$Package::CourseMappingsFilePath,$Package::LearnersFilePath,$Package::OutputFilePath,$Package::UniversityMappingsFilePath"
           ReadWriteVariables="User::CoursesFileReady,User::LearnersFileReady,User::OutputFolderReady,User::UniversitiesFileReady">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_f1a3a534246f406589c217765fc0d74d")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_f1a3a534246f406589c217765fc0d74d")]
-[assembly: AssemblyCopyright("Copyright @  2021")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+	<Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
+	Microsoft ResX Schema 
+	
+	Version 2.0
+	
+	The primary goals of this format is to allow a simple XML format 
+	that is mostly human readable. The generation and parsing of the 
+	various data types are done through the TypeConverter classes 
+	associated with the data types.
+	
+	Example:
+	
+	... ado.net/XML headers & schema ...
+	<resheader name="resmimetype">text/microsoft-resx</resheader>
+	<resheader name="version">2.0</resheader>
+	<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+	<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+	<data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+	<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+	<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+		<value>[base64 mime encoded serialized .NET Framework object]</value>
+	</data>
+	<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+		<value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+		<comment>This is a comment</comment>
+	</data>
+				
+	There are any number of "resheader" rows that contain simple 
+	name/value pairs.
+	
+	Each data row contains a name, and value. The row also contains a 
+	type or mimetype. Type corresponds to a .NET class that support 
+	text/value conversion through the TypeConverter architecture. 
+	Classes that don't support this are serialized and stored with the 
+	mimetype set.
+	
+	The mimetype is used for serialized objects, and tells the 
+	ResXResourceReader how to depersist the object. This is currently not 
+	extensible. For a given mimetype the value must be set accordingly:
+	
+	Note - application/x-microsoft.net.object.binary.base64 is the format 
+	that the ResXResourceWriter will generate, however the reader can 
+	read any of the formats listed below.
+	
+	mimetype: application/x-microsoft.net.object.binary.base64
+	value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+	
+	mimetype: application/x-microsoft.net.object.soap.base64
+	value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
 
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
+	mimetype: application/x-microsoft.net.object.bytearray.base64
+	value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
+	<xsd:element name="root" msdata:IsDataSet="true">
+	  <xsd:complexType>
+		<xsd:choice maxOccurs="unbounded">
+		  <xsd:element name="metadata">
+			<xsd:complexType>
+			  <xsd:sequence>
+				<xsd:element name="value" type="xsd:string" minOccurs="0" />
+			  </xsd:sequence>
+			  <xsd:attribute name="name" type="xsd:string" />
+			  <xsd:attribute name="type" type="xsd:string" />
+			  <xsd:attribute name="mimetype" type="xsd:string" />
+			</xsd:complexType>
+		  </xsd:element>
+		  <xsd:element name="assembly">
+			<xsd:complexType>
+			  <xsd:attribute name="alias" type="xsd:string" />
+			  <xsd:attribute name="name" type="xsd:string" />
+			</xsd:complexType>
+		  </xsd:element>
+		  <xsd:element name="data">
+			<xsd:complexType>
+			  <xsd:sequence>
+				<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+				<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+			  </xsd:sequence>
+			  <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+			  <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+			  <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+			</xsd:complexType>
+		  </xsd:element>
+		  <xsd:element name="resheader">
+			<xsd:complexType>
+			  <xsd:sequence>
+				<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+			  </xsd:sequence>
+			  <xsd:attribute name="name" type="xsd:string" use="required" />
+			</xsd:complexType>
+		  </xsd:element>
+		</xsd:choice>
+	  </xsd:complexType>
+	</xsd:element>
   </xsd:schema>
   <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
+	<value>text/microsoft-resx</value>
   </resheader>
   <resheader name="version">
-    <value>2.0</value>
+	<value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
@@ -1020,85 +1001,85 @@ namespace ST_f1a3a534246f406589c217765fc0d74d
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{01DF7B1B-A4FF-4B66-B2B5-DA09D4E8A9C1}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_f1a3a534246f406589c217765fc0d74d</RootNamespace>
-    <AssemblyName>ST_f1a3a534246f406589c217765fc0d74d</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
+	<ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>8.0.30703</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{01DF7B1B-A4FF-4B66-B2B5-DA09D4E8A9C1}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>ST_f1a3a534246f406589c217765fc0d74d</RootNamespace>
+	<AssemblyName>ST_f1a3a534246f406589c217765fc0d74d</AssemblyName>
+	<TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+	<TargetFrameworkProfile></TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>.\bin\Debug\</OutputPath>
+	<EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+	<DefineConstants>DEBUG;TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+	<DebugSymbols>false</DebugSymbols>
+	<Optimize>true</Optimize>
+	<OutputPath>.\bin\Release\</OutputPath>
+	<EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+	<Reference Include="System" />
+	<Reference Include="System.Data" />
+	<Reference Include="System.Windows.Forms" />
+	<Reference Include="System.Xml" />
+	<Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+	<Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
   </ItemGroup>
   <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
+	<AppDesigner Include="Properties\" />
+	<Compile Include="Properties\AssemblyInfo.cs">
+	  <SubType>Code</SubType>
+	</Compile>
+	<EmbeddedResource Include="Properties\Resources.resx">
+	  <Generator>ResXFileCodeGenerator</Generator>
+	  <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	</EmbeddedResource>
+	<Compile Include="Properties\Resources.Designer.cs">
+	  <AutoGen>True</AutoGen>
+	  <DependentUpon>Resources.resx</DependentUpon>
+	</Compile>
+	<None Include="Properties\Settings.settings">
+	  <Generator>SettingsSingleFileGenerator</Generator>
+	  <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+	</None>
+	<Compile Include="Properties\Settings.Designer.cs">
+	  <AutoGen>True</AutoGen>
+	  <DependentUpon>Settings.settings</DependentUpon>
+	</Compile>
+	<Compile Include="ScriptMain.cs">
+	  <SubType>Code</SubType>
+	</Compile>
   </ItemGroup>
   <!-- Include the build rules for a C# project.-->
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
+	<VisualStudio>
+	  <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+		<ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+		<Host Name="ScriptTask" />
+		<ProjectClient>
+		  <HostIdentifier>SSIS_ST150</HostIdentifier>
+		</ProjectClient>
+	  </FlavorProperties>
+	</VisualStudio>
   </ProjectExtensions>
 </Project>]]></ProjectItem>
           <ProjectItem
@@ -1106,19 +1087,19 @@ namespace ST_f1a3a534246f406589c217765fc0d74d
             Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
 <c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
   <msb:PropertyGroup>
-    <msb:CodeName>ST_f1a3a534246f406589c217765fc0d74d</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>ST_f1a3a534246f406589c217765fc0d74d</msb:DisplayName>
-    <msb:ProjectId>{D28286E1-4E4B-4EBD-AA24-3BA4A9699A18}</msb:ProjectId>
+	<msb:CodeName>ST_f1a3a534246f406589c217765fc0d74d</msb:CodeName>
+	<msb:Language>msBuild</msb:Language>
+	<msb:DisplayName>ST_f1a3a534246f406589c217765fc0d74d</msb:DisplayName>
+	<msb:ProjectId>{D28286E1-4E4B-4EBD-AA24-3BA4A9699A18}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
-    <msb:Project Include="ST_f1a3a534246f406589c217765fc0d74d.csproj" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="ScriptMain.cs" />
+	<msb:Project Include="ST_f1a3a534246f406589c217765fc0d74d.csproj" />
+	<msb:File Include="Properties\Settings.Designer.cs" />
+	<msb:File Include="Properties\Settings.settings" />
+	<msb:File Include="Properties\AssemblyInfo.cs" />
+	<msb:File Include="Properties\Resources.resx" />
+	<msb:File Include="Properties\Resources.Designer.cs" />
+	<msb:File Include="ScriptMain.cs" />
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
@@ -1133,32 +1114,53 @@ namespace ST_f1a3a534246f406589c217765fc0d74d
 //------------------------------------------------------------------------------
 
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_f1a3a534246f406589c217765fc0d74d.Properties.Settings.get_Default():ST_f1a3a534246f406589c217765fc0d74d.Properties.Sett" +
-    "ings")]
+	"ings")]
 
 namespace ST_f1a3a534246f406589c217765fc0d74d.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
+	
+	
+	internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+		
+		[global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+		private static Settings defaultInstance = new Settings();
+		
+		public static Settings Default {
+			get {
+				return defaultInstance;
+			}
+		}
+	}
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_f1a3a534246f406589c217765fc0d74d")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_f1a3a534246f406589c217765fc0d74d")]
+[assembly: AssemblyCopyright("Copyright @  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -1171,61 +1173,61 @@ namespace ST_f1a3a534246f406589c217765fc0d74d.Properties {
 //------------------------------------------------------------------------------
 
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_f1a3a534246f406589c217765fc0d74d.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
-    "rceManager")]
+	"rceManager")]
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_f1a3a534246f406589c217765fc0d74d.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
-    "fo")]
+	"fo")]
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_f1a3a534246f406589c217765fc0d74d.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
-    "):Void")]
+	"):Void")]
 
 namespace ST_f1a3a534246f406589c217765fc0d74d.Properties {
-    
-    
-    /// <summary>
-    ///   A strongly-typed resource class, for looking up localized strings, etc.
-    /// </summary>
-    // This class was auto-generated by the StronglyTypedResourceBuilder
-    // class via a tool like ResGen or Visual Studio.
-    // To add or remove a member, edit your .ResX file then rerun ResGen
-    // with the /str option, or rebuild your VS project.
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class Resources {
-        
-        private static global::System.Resources.ResourceManager resourceMan;
-        
-        private static global::System.Globalization.CultureInfo resourceCulture;
-        
-        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
-        }
-        
-        /// <summary>
-        ///   Returns the cached ResourceManager instance used by this class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
-            get {
-                if ((resourceMan == null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_f1a3a534246f406589c217765fc0d74d.Properties.Resources", typeof(Resources).Assembly);
-                    resourceMan = temp;
-                }
-                return resourceMan;
-            }
-        }
-        
-        /// <summary>
-        ///   Overrides the current thread's CurrentUICulture property for all
-        ///   resource lookups using this strongly typed resource class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
-            get {
-                return resourceCulture;
-            }
-            set {
-                resourceCulture = value;
-            }
-        }
-    }
+	
+	
+	/// <summary>
+	///   A strongly-typed resource class, for looking up localized strings, etc.
+	/// </summary>
+	// This class was auto-generated by the StronglyTypedResourceBuilder
+	// class via a tool like ResGen or Visual Studio.
+	// To add or remove a member, edit your .ResX file then rerun ResGen
+	// with the /str option, or rebuild your VS project.
+	[global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+	internal class Resources {
+		
+		private static global::System.Resources.ResourceManager resourceMan;
+		
+		private static global::System.Globalization.CultureInfo resourceCulture;
+		
+		[global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+		internal Resources() {
+		}
+		
+		/// <summary>
+		///   Returns the cached ResourceManager instance used by this class.
+		/// </summary>
+		[global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+		internal static global::System.Resources.ResourceManager ResourceManager {
+			get {
+				if ((resourceMan == null)) {
+					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_f1a3a534246f406589c217765fc0d74d.Properties.Resources", typeof(Resources).Assembly);
+					resourceMan = temp;
+				}
+				return resourceMan;
+			}
+		}
+		
+		/// <summary>
+		///   Overrides the current thread's CurrentUICulture property for all
+		///   resource lookups using this strongly typed resource class.
+		/// </summary>
+		[global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+		internal static global::System.Globalization.CultureInfo Culture {
+			get {
+				return resourceCulture;
+			}
+			set {
+				resourceCulture = value;
+			}
+		}
+	}
 }]]></ProjectItem>
           <BinaryItem
             Name="ST_f1a3a534246f406589c217765fc0d74d.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1385,7 +1387,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           DTS:LocaleID="-1"
           DTS:ObjectName="Copy Courses to Temp"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -1405,7 +1407,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           DTS:LocaleID="-1"
           DTS:ObjectName="Copy Learners To Temp"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -1425,7 +1427,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           DTS:LocaleID="-1"
           DTS:ObjectName="Copy Universities to Temp"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -1561,57 +1563,57 @@ using Microsoft.SqlServer.Dts.Runtime.Wrapper;
 
 public class UserComponent: ScriptComponent
 {
-    public Connections Connections;
-    public Variables Variables;
-    public UserComponent()
-    {
-        Connections = new Connections(this);
-        Variables = new Variables(this);
-    }
+	public Connections Connections;
+	public Variables Variables;
+	public UserComponent()
+	{
+		Connections = new Connections(this);
+		Variables = new Variables(this);
+	}
 
-    public override void ProcessInput(int InputID, string InputName, PipelineBuffer Buffer, OutputNameMap OutputMap)
-    {
+	public override void ProcessInput(int InputID, string InputName, PipelineBuffer Buffer, OutputNameMap OutputMap)
+	{
 
-        if (InputName.Equals(@"Input 0", StringComparison.Ordinal))
-        {
-            Input0_ProcessInput(new Input0Buffer(Buffer, GetColumnIndexes(InputID), OutputMap));
-        }
+		if (InputName.Equals(@"Input 0", StringComparison.Ordinal))
+		{
+			Input0_ProcessInput(new Input0Buffer(Buffer, GetColumnIndexes(InputID), OutputMap));
+		}
 
-    }
+	}
 
-    public virtual void Input0_ProcessInput(Input0Buffer Buffer)
-    {
-        while (Buffer.NextRow())
-        {
-            Input0_ProcessInputRow(Buffer);
-        }
-    }
+	public virtual void Input0_ProcessInput(Input0Buffer Buffer)
+	{
+		while (Buffer.NextRow())
+		{
+			Input0_ProcessInputRow(Buffer);
+		}
+	}
 
-    public virtual void Input0_ProcessInputRow(Input0Buffer Row)
-    {
-    }
+	public virtual void Input0_ProcessInputRow(Input0Buffer Row)
+	{
+	}
 
 }
 
 public class Connections
 {
-    ScriptComponent ParentComponent;
+	ScriptComponent ParentComponent;
 
-    public Connections(ScriptComponent Component)
-    {
-        ParentComponent = Component;
-    }
+	public Connections(ScriptComponent Component)
+	{
+		ParentComponent = Component;
+	}
 
 }
 
 public class Variables
 {
-    ScriptComponent ParentComponent;
+	ScriptComponent ParentComponent;
 
-    public Variables(ScriptComponent Component)
-    {
-        ParentComponent = Component;
-    }
+	public Variables(ScriptComponent Component)
+	{
+		ParentComponent = Component;
+	}
 
 }
 ]]></arrayElement>
@@ -1623,118 +1625,118 @@ public class Variables
                       dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
+	Microsoft ResX Schema 
+	
+	Version 2.0
+	
+	The primary goals of this format is to allow a simple XML format 
+	that is mostly human readable. The generation and parsing of the 
+	various data types are done through the TypeConverter classes 
+	associated with the data types.
+	
+	Example:
+	
+	... ado.net/XML headers & schema ...
+	<resheader name="resmimetype">text/microsoft-resx</resheader>
+	<resheader name="version">2.0</resheader>
+	<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+	<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+	<data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+	<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+	<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+		<value>[base64 mime encoded serialized .NET Framework object]</value>
+	</data>
+	<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+		<value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+		<comment>This is a comment</comment>
+	</data>
+				
+	There are any number of "resheader" rows that contain simple 
+	name/value pairs.
+	
+	Each data row contains a name, and value. The row also contains a 
+	type or mimetype. Type corresponds to a .NET class that support 
+	text/value conversion through the TypeConverter architecture. 
+	Classes that don't support this are serialized and stored with the 
+	mimetype set.
+	
+	The mimetype is used for serialized objects, and tells the 
+	ResXResourceReader how to depersist the object. This is currently not 
+	extensible. For a given mimetype the value must be set accordingly:
+	
+	Note - application/x-microsoft.net.object.binary.base64 is the format 
+	that the ResXResourceWriter will generate, however the reader can 
+	read any of the formats listed below.
+	
+	mimetype: application/x-microsoft.net.object.binary.base64
+	value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+	
+	mimetype: application/x-microsoft.net.object.soap.base64
+	value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
 
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
+	mimetype: application/x-microsoft.net.object.bytearray.base64
+	value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
+	<xsd:element name="root" msdata:IsDataSet="true">
+	  <xsd:complexType>
+		<xsd:choice maxOccurs="unbounded">
+		  <xsd:element name="metadata">
+			<xsd:complexType>
+			  <xsd:sequence>
+				<xsd:element name="value" type="xsd:string" minOccurs="0" />
+			  </xsd:sequence>
+			  <xsd:attribute name="name" type="xsd:string" />
+			  <xsd:attribute name="type" type="xsd:string" />
+			  <xsd:attribute name="mimetype" type="xsd:string" />
+			</xsd:complexType>
+		  </xsd:element>
+		  <xsd:element name="assembly">
+			<xsd:complexType>
+			  <xsd:attribute name="alias" type="xsd:string" />
+			  <xsd:attribute name="name" type="xsd:string" />
+			</xsd:complexType>
+		  </xsd:element>
+		  <xsd:element name="data">
+			<xsd:complexType>
+			  <xsd:sequence>
+				<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+				<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+			  </xsd:sequence>
+			  <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+			  <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+			  <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+			</xsd:complexType>
+		  </xsd:element>
+		  <xsd:element name="resheader">
+			<xsd:complexType>
+			  <xsd:sequence>
+				<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+			  </xsd:sequence>
+			  <xsd:attribute name="name" type="xsd:string" use="required" />
+			</xsd:complexType>
+		  </xsd:element>
+		</xsd:choice>
+	  </xsd:complexType>
+	</xsd:element>
   </xsd:schema>
   <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
+	<value>text/microsoft-resx</value>
   </resheader>
   <resheader name="version">
-    <value>2.0</value>
+	<value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></arrayElement>
                     <arrayElement
@@ -1765,107 +1767,107 @@ using Microsoft.SqlServer.Dts.Runtime.Wrapper;
 [Microsoft.SqlServer.Dts.Pipeline.SSISScriptComponentEntryPointAttribute]
 public class ScriptMain : UserComponent
 {
-    #region Help:  Using Integration Services variables and parameters
-    /* To use a variable in this script, first ensure that the variable has been added to
-     * either the list contained in the ReadOnlyVariables property or the list contained in
-     * the ReadWriteVariables property of this script component, according to whether or not your
-     * code needs to write into the variable.  To do so, save this script, close this instance of
-     * Visual Studio, and update the ReadOnlyVariables and ReadWriteVariables properties in the
-     * Script Transformation Editor window.
-     * To use a parameter in this script, follow the same steps. Parameters are always read-only.
-     *
-     * Example of reading from a variable or parameter:
-     *  DateTime startTime = Variables.MyStartTime;
-     *
-     * Example of writing to a variable:
-     *  Variables.myStringVariable = "new value";
-     */
-    #endregion
+	#region Help:  Using Integration Services variables and parameters
+	/* To use a variable in this script, first ensure that the variable has been added to
+	 * either the list contained in the ReadOnlyVariables property or the list contained in
+	 * the ReadWriteVariables property of this script component, according to whether or not your
+	 * code needs to write into the variable.  To do so, save this script, close this instance of
+	 * Visual Studio, and update the ReadOnlyVariables and ReadWriteVariables properties in the
+	 * Script Transformation Editor window.
+	 * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+	 *
+	 * Example of reading from a variable or parameter:
+	 *  DateTime startTime = Variables.MyStartTime;
+	 *
+	 * Example of writing to a variable:
+	 *  Variables.myStringVariable = "new value";
+	 */
+	#endregion
 
-    #region Help:  Using Integration Services Connnection Managers
-    /* Some types of connection managers can be used in this script component.  See the help topic
-     * "Working with Connection Managers Programatically" for details.
-     *
-     * To use a connection manager in this script, first ensure that the connection manager has
-     * been added to either the list of connection managers on the Connection Managers page of the
-     * script component editor.  To add the connection manager, save this script, close this instance of
-     * Visual Studio, and add the Connection Manager to the list.
-     *
-     * If the component needs to hold a connection open while processing rows, override the
-     * AcquireConnections and ReleaseConnections methods.
-     * 
-     * Example of using an ADO.Net connection manager to acquire a SqlConnection:
-     *  object rawConnection = Connections.SalesDB.AcquireConnection(transaction);
-     *  SqlConnection salesDBConn = (SqlConnection)rawConnection;
-     *
-     * Example of using a File connection manager to acquire a file path:
-     *  object rawConnection = Connections.Prices_zip.AcquireConnection(transaction);
-     *  string filePath = (string)rawConnection;
-     *
-     * Example of releasing a connection manager:
-     *  Connections.SalesDB.ReleaseConnection(rawConnection);
-     */
-    #endregion
+	#region Help:  Using Integration Services Connnection Managers
+	/* Some types of connection managers can be used in this script component.  See the help topic
+	 * "Working with Connection Managers Programatically" for details.
+	 *
+	 * To use a connection manager in this script, first ensure that the connection manager has
+	 * been added to either the list of connection managers on the Connection Managers page of the
+	 * script component editor.  To add the connection manager, save this script, close this instance of
+	 * Visual Studio, and add the Connection Manager to the list.
+	 *
+	 * If the component needs to hold a connection open while processing rows, override the
+	 * AcquireConnections and ReleaseConnections methods.
+	 * 
+	 * Example of using an ADO.Net connection manager to acquire a SqlConnection:
+	 *  object rawConnection = Connections.SalesDB.AcquireConnection(transaction);
+	 *  SqlConnection salesDBConn = (SqlConnection)rawConnection;
+	 *
+	 * Example of using a File connection manager to acquire a file path:
+	 *  object rawConnection = Connections.Prices_zip.AcquireConnection(transaction);
+	 *  string filePath = (string)rawConnection;
+	 *
+	 * Example of releasing a connection manager:
+	 *  Connections.SalesDB.ReleaseConnection(rawConnection);
+	 */
+	#endregion
 
-    #region Help:  Firing Integration Services Events
-    /* This script component can fire events.
-     *
-     * Example of firing an error event:
-     *  ComponentMetaData.FireError(10, "Process Values", "Bad value", "", 0, out cancel);
-     *
-     * Example of firing an information event:
-     *  ComponentMetaData.FireInformation(10, "Process Values", "Processing has started", "", 0, fireAgain);
-     *
-     * Example of firing a warning event:
-     *  ComponentMetaData.FireWarning(10, "Process Values", "No rows were received", "", 0);
-     */
-    #endregion
+	#region Help:  Firing Integration Services Events
+	/* This script component can fire events.
+	 *
+	 * Example of firing an error event:
+	 *  ComponentMetaData.FireError(10, "Process Values", "Bad value", "", 0, out cancel);
+	 *
+	 * Example of firing an information event:
+	 *  ComponentMetaData.FireInformation(10, "Process Values", "Processing has started", "", 0, fireAgain);
+	 *
+	 * Example of firing a warning event:
+	 *  ComponentMetaData.FireWarning(10, "Process Values", "No rows were received", "", 0);
+	 */
+	#endregion
 
 
 
-    /// <summary>
-    /// This method is called once for every row that passes through the component from Input0.
-    ///
-    /// Example of reading a value from a column in the the row:
-    ///  string zipCode = Row.ZipCode
-    ///
-    /// Example of writing a value to a column in the row:
-    ///  Row.ZipCode = zipCode
-    /// </summary>
-    /// <param name="Row">The row that is currently passing through the component</param>
-    public override void Input0_ProcessInputRow(Input0Buffer Row)
-    {
+	/// <summary>
+	/// This method is called once for every row that passes through the component from Input0.
+	///
+	/// Example of reading a value from a column in the the row:
+	///  string zipCode = Row.ZipCode
+	///
+	/// Example of writing a value to a column in the row:
+	///  Row.ZipCode = zipCode
+	/// </summary>
+	/// <param name="Row">The row that is currently passing through the component</param>
+	public override void Input0_ProcessInputRow(Input0Buffer Row)
+	{
 
-        //With thanks: https://microsoft-ssis.blogspot.com/2011/03/regular-expressions-in-ssis.html
+		//With thanks: https://microsoft-ssis.blogspot.com/2011/03/regular-expressions-in-ssis.html
 
-        // Validate the email address
-        if (IsCorrectEmail(Row.Email))
-        {
-            // Redirect the correct email address
-            Row.DirectRowToCorrectEmail();
-        }
-        else
-        {
-            // Redirect the incorrect email address
-            Row.DirectRowToIncorrectEmail();
-        }
-    }
+		// Validate the email address
+		if (IsCorrectEmail(Row.Email))
+		{
+			// Redirect the correct email address
+			Row.DirectRowToCorrectEmail();
+		}
+		else
+		{
+			// Redirect the incorrect email address
+			Row.DirectRowToIncorrectEmail();
+		}
+	}
 
-    // A boolean method that validates an email address
-    // with a regex pattern.
-    public bool IsCorrectEmail(String emailAddress)
-    {
-        // The pattern for email
-        string emailAddressPattern = @"^(([^<>()[\]\\.,;:\s@\""]+"
-                        + @"(\.[^<>()[\]\\.,;:\s@\""]+)*)|(\"".+\""))@"
-                        + @"((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"
-                        + @"\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+"
-                        + @"[a-zA-Z]{2,}))$";
-        // Create a regex object with the pattern
-        Regex emailAddressRegex = new Regex(emailAddressPattern);
-        // Check if it is match and return that value (boolean)
-        return emailAddressRegex.IsMatch(emailAddress);
-    }
+	// A boolean method that validates an email address
+	// with a regex pattern.
+	public bool IsCorrectEmail(String emailAddress)
+	{
+		// The pattern for email
+		string emailAddressPattern = @"^(([^<>()[\]\\.,;:\s@\""]+"
+						+ @"(\.[^<>()[\]\\.,;:\s@\""]+)*)|(\"".+\""))@"
+						+ @"((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"
+						+ @"\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+"
+						+ @"[a-zA-Z]{2,}))$";
+		// Create a regex object with the pattern
+		Regex emailAddressRegex = new Regex(emailAddressPattern);
+		// Check if it is match and return that value (boolean)
+		return emailAddressRegex.IsMatch(emailAddress);
+	}
 
 }
 ]]></arrayElement>
@@ -1889,165 +1891,165 @@ using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
 public class Input0Buffer: ScriptBuffer
 
 {
-    public Input0Buffer(PipelineBuffer Buffer, int[] BufferColumnIndexes, OutputNameMap OutputMap)
-        : base(Buffer, BufferColumnIndexes, OutputMap)
-    {
-    }
+	public Input0Buffer(PipelineBuffer Buffer, int[] BufferColumnIndexes, OutputNameMap OutputMap)
+		: base(Buffer, BufferColumnIndexes, OutputMap)
+	{
+	}
 
-    public String Email
-    {
-        get
-        {
-            return Buffer.GetString(BufferColumnIndexes[0]);
-        }
-    }
-    public bool Email_IsNull
-    {
-        get
-        {
-            return IsNull(0);
-        }
-    }
+	public String Email
+	{
+		get
+		{
+			return Buffer.GetString(BufferColumnIndexes[0]);
+		}
+	}
+	public bool Email_IsNull
+	{
+		get
+		{
+			return IsNull(0);
+		}
+	}
 
-    public Int16 Course
-    {
-        get
-        {
-            return Buffer.GetInt16(BufferColumnIndexes[1]);
-        }
-    }
-    public bool Course_IsNull
-    {
-        get
-        {
-            return IsNull(1);
-        }
-    }
+	public Int16 Course
+	{
+		get
+		{
+			return Buffer.GetInt16(BufferColumnIndexes[1]);
+		}
+	}
+	public bool Course_IsNull
+	{
+		get
+		{
+			return IsNull(1);
+		}
+	}
 
-    public String FirstName
-    {
-        get
-        {
-            return Buffer.GetString(BufferColumnIndexes[2]);
-        }
-    }
-    public bool FirstName_IsNull
-    {
-        get
-        {
-            return IsNull(2);
-        }
-    }
+	public String FirstName
+	{
+		get
+		{
+			return Buffer.GetString(BufferColumnIndexes[2]);
+		}
+	}
+	public bool FirstName_IsNull
+	{
+		get
+		{
+			return IsNull(2);
+		}
+	}
 
-    public String Profession
-    {
-        get
-        {
-            return Buffer.GetString(BufferColumnIndexes[3]);
-        }
-    }
-    public bool Profession_IsNull
-    {
-        get
-        {
-            return IsNull(3);
-        }
-    }
+	public String Profession
+	{
+		get
+		{
+			return Buffer.GetString(BufferColumnIndexes[3]);
+		}
+	}
+	public bool Profession_IsNull
+	{
+		get
+		{
+			return IsNull(3);
+		}
+	}
 
-    public String LastName
-    {
-        get
-        {
-            return Buffer.GetString(BufferColumnIndexes[4]);
-        }
-    }
-    public bool LastName_IsNull
-    {
-        get
-        {
-            return IsNull(4);
-        }
-    }
+	public String LastName
+	{
+		get
+		{
+			return Buffer.GetString(BufferColumnIndexes[4]);
+		}
+	}
+	public bool LastName_IsNull
+	{
+		get
+		{
+			return IsNull(4);
+		}
+	}
 
-    public Int16 University
-    {
-        get
-        {
-            return Buffer.GetInt16(BufferColumnIndexes[5]);
-        }
-    }
-    public bool University_IsNull
-    {
-        get
-        {
-            return IsNull(5);
-        }
-    }
+	public Int16 University
+	{
+		get
+		{
+			return Buffer.GetInt16(BufferColumnIndexes[5]);
+		}
+	}
+	public bool University_IsNull
+	{
+		get
+		{
+			return IsNull(5);
+		}
+	}
 
-    public String LastLogIn
-    {
-        get
-        {
-            return Buffer.GetString(BufferColumnIndexes[6]);
-        }
-    }
-    public bool LastLogIn_IsNull
-    {
-        get
-        {
-            return IsNull(6);
-        }
-    }
+	public String LastLogIn
+	{
+		get
+		{
+			return Buffer.GetString(BufferColumnIndexes[6]);
+		}
+	}
+	public bool LastLogIn_IsNull
+	{
+		get
+		{
+			return IsNull(6);
+		}
+	}
 
-    public String CreatedOn
-    {
-        get
-        {
-            return Buffer.GetString(BufferColumnIndexes[7]);
-        }
-    }
-    public bool CreatedOn_IsNull
-    {
-        get
-        {
-            return IsNull(7);
-        }
-    }
+	public String CreatedOn
+	{
+		get
+		{
+			return Buffer.GetString(BufferColumnIndexes[7]);
+		}
+	}
+	public bool CreatedOn_IsNull
+	{
+		get
+		{
+			return IsNull(7);
+		}
+	}
 
-    public String Title
-    {
-        get
-        {
-            return Buffer.GetString(BufferColumnIndexes[8]);
-        }
-    }
-    public bool Title_IsNull
-    {
-        get
-        {
-            return IsNull(8);
-        }
-    }
+	public String Title
+	{
+		get
+		{
+			return Buffer.GetString(BufferColumnIndexes[8]);
+		}
+	}
+	public bool Title_IsNull
+	{
+		get
+		{
+			return IsNull(8);
+		}
+	}
 
-    public void DirectRowToCorrectEmail()
-    {
-        base.DirectRow(@"CorrectEmail");
-    }
+	public void DirectRowToCorrectEmail()
+	{
+		base.DirectRow(@"CorrectEmail");
+	}
 
-    public void DirectRowToIncorrectEmail()
-    {
-        base.DirectRow(@"IncorrectEmail");
-    }
+	public void DirectRowToIncorrectEmail()
+	{
+		base.DirectRow(@"IncorrectEmail");
+	}
 
-    new public bool NextRow()
-    {
-        return base.NextRow();
-    }
+	new public bool NextRow()
+	{
+		return base.NextRow();
+	}
 
-    new public bool EndOfRowset()
-    {
-        return base.EndOfRowset();
-    }
+	new public bool EndOfRowset()
+	{
+		return base.EndOfRowset();
+	}
 
 }
 ]]></arrayElement>
@@ -2066,22 +2068,22 @@ public class Input0Buffer: ScriptBuffer
 //------------------------------------------------------------------------------
 
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties.Settings.get_Default():SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties.Sett" +
-    "ings")]
+	"ings")]
 
 namespace SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
+	
+	
+	internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+		
+		[global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+		private static Settings defaultInstance = new Settings();
+		
+		public static Settings Default {
+			get {
+				return defaultInstance;
+			}
+		}
+	}
 }
 ]]></arrayElement>
                     <arrayElement
@@ -2092,88 +2094,88 @@ namespace SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties {
                       dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{49069525-D953-4D24-8875-4A41D4447A81}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SC_ab2563e4ec6c4f2b9fd213bf7f0807e8</RootNamespace>
-    <AssemblyName>SC_ab2563e4ec6c4f2b9fd213bf7f0807e8</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
+	<ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>8.0.30703</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{49069525-D953-4D24-8875-4A41D4447A81}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>SC_ab2563e4ec6c4f2b9fd213bf7f0807e8</RootNamespace>
+	<AssemblyName>SC_ab2563e4ec6c4f2b9fd213bf7f0807e8</AssemblyName>
+	<TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+	<TargetFrameworkProfile></TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>.\bin\Debug\</OutputPath>
+	<EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+	<DefineConstants>DEBUG;TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+	<DebugSymbols>false</DebugSymbols>
+	<Optimize>true</Optimize>
+	<OutputPath>.\bin\Release\</OutputPath>
+	<EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.TxScript, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.PipelineHost, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Compile Include="main.cs" />
-    <Compile Include="BufferWrapper.cs" />
-    <Compile Include="ComponentWrapper.cs" />
+	<Reference Include="System" />
+	<Reference Include="System.Data" />
+	<Reference Include="System.Windows.Forms" />
+	<Reference Include="System.Xml" />
+	<Reference Include="Microsoft.SqlServer.TxScript, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+	<Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+	<Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+	<Reference Include="Microsoft.SqlServer.PipelineHost, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+	<Compile Include="main.cs" />
+	<Compile Include="BufferWrapper.cs" />
+	<Compile Include="ComponentWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
+	<AppDesigner Include="Properties\" />
+	<Compile Include="Properties\AssemblyInfo.cs">
+	  <SubType>Code</SubType>
+	</Compile>
+	<EmbeddedResource Include="Properties\Resources.resx">
+	  <Generator>ResXFileCodeGenerator</Generator>
+	  <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	</EmbeddedResource>
+	<Compile Include="Properties\Resources.Designer.cs">
+	  <AutoGen>True</AutoGen>
+	  <DependentUpon>Resources.resx</DependentUpon>
+	</Compile>
+	<None Include="Properties\Settings.settings">
+	  <Generator>SettingsSingleFileGenerator</Generator>
+	  <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+	</None>
+	<Compile Include="Properties\Settings.Designer.cs">
+	  <AutoGen>True</AutoGen>
+	  <DependentUpon>Settings.settings</DependentUpon>
+	</Compile>
   </ItemGroup>
   <!-- Include the build rules for a C# project.-->
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- This section defines VSTA properties that describe the host-changable project properties. -->
   <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptComponent" IconIndex="0" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_SC150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
+	<VisualStudio>
+	  <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+		<ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+		<Host Name="ScriptComponent" IconIndex="0" />
+		<ProjectClient>
+		  <HostIdentifier>SSIS_SC150</HostIdentifier>
+		</ProjectClient>
+	  </FlavorProperties>
+	</VisualStudio>
   </ProjectExtensions>
 </Project>]]></arrayElement>
                     <arrayElement
@@ -2184,21 +2186,21 @@ namespace SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties {
                       dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
 <c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
   <msb:PropertyGroup>
-    <msb:CodeName>SC_ab2563e4ec6c4f2b9fd213bf7f0807e8</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>SC_ab2563e4ec6c4f2b9fd213bf7f0807e8</msb:DisplayName>
-    <msb:ProjectId>{F9699502-B985-442F-9749-C61E134EC077}</msb:ProjectId>
+	<msb:CodeName>SC_ab2563e4ec6c4f2b9fd213bf7f0807e8</msb:CodeName>
+	<msb:Language>msBuild</msb:Language>
+	<msb:DisplayName>SC_ab2563e4ec6c4f2b9fd213bf7f0807e8</msb:DisplayName>
+	<msb:ProjectId>{F9699502-B985-442F-9749-C61E134EC077}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
-    <msb:Project Include="SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.csproj" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="main.cs" />
-    <msb:File Include="BufferWrapper.cs" />
-    <msb:File Include="ComponentWrapper.cs" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
+	<msb:Project Include="SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.csproj" />
+	<msb:File Include="Properties\Settings.Designer.cs" />
+	<msb:File Include="main.cs" />
+	<msb:File Include="BufferWrapper.cs" />
+	<msb:File Include="ComponentWrapper.cs" />
+	<msb:File Include="Properties\Settings.settings" />
+	<msb:File Include="Properties\AssemblyInfo.cs" />
+	<msb:File Include="Properties\Resources.resx" />
+	<msb:File Include="Properties\Resources.Designer.cs" />
   </msb:ItemGroup>
 </c:Project>]]></arrayElement>
                     <arrayElement
@@ -2243,7 +2245,7 @@ using System.Runtime.CompilerServices;
                       dataType="System.String"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
 <SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
   <Profiles>
-    <Profile Name="(Default)" />
+	<Profile Name="(Default)" />
   </Profiles>
   <Settings />
 </SettingsFile>]]></arrayElement>
@@ -2262,61 +2264,61 @@ using System.Runtime.CompilerServices;
 //------------------------------------------------------------------------------
 
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
-    "rceManager")]
+	"rceManager")]
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
-    "fo")]
+	"fo")]
 [assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
-    "):Void")]
+	"):Void")]
 
 namespace SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties {
-    
-    
-    /// <summary>
-    ///   A strongly-typed resource class, for looking up localized strings, etc.
-    /// </summary>
-    // This class was auto-generated by the StronglyTypedResourceBuilder
-    // class via a tool like ResGen or Visual Studio.
-    // To add or remove a member, edit your .ResX file then rerun ResGen
-    // with the /str option, or rebuild your VS project.
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class Resources {
-        
-        private static global::System.Resources.ResourceManager resourceMan;
-        
-        private static global::System.Globalization.CultureInfo resourceCulture;
-        
-        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
-        }
-        
-        /// <summary>
-        ///   Returns the cached ResourceManager instance used by this class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
-            get {
-                if ((resourceMan == null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties.Resources", typeof(Resources).Assembly);
-                    resourceMan = temp;
-                }
-                return resourceMan;
-            }
-        }
-        
-        /// <summary>
-        ///   Overrides the current thread's CurrentUICulture property for all
-        ///   resource lookups using this strongly typed resource class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
-            get {
-                return resourceCulture;
-            }
-            set {
-                resourceCulture = value;
-            }
-        }
-    }
+	
+	
+	/// <summary>
+	///   A strongly-typed resource class, for looking up localized strings, etc.
+	/// </summary>
+	// This class was auto-generated by the StronglyTypedResourceBuilder
+	// class via a tool like ResGen or Visual Studio.
+	// To add or remove a member, edit your .ResX file then rerun ResGen
+	// with the /str option, or rebuild your VS project.
+	[global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+	internal class Resources {
+		
+		private static global::System.Resources.ResourceManager resourceMan;
+		
+		private static global::System.Globalization.CultureInfo resourceCulture;
+		
+		[global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+		internal Resources() {
+		}
+		
+		/// <summary>
+		///   Returns the cached ResourceManager instance used by this class.
+		/// </summary>
+		[global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+		internal static global::System.Resources.ResourceManager ResourceManager {
+			get {
+				if ((resourceMan == null)) {
+					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_ab2563e4ec6c4f2b9fd213bf7f0807e8.Properties.Resources", typeof(Resources).Assembly);
+					resourceMan = temp;
+				}
+				return resourceMan;
+			}
+		}
+		
+		/// <summary>
+		///   Overrides the current thread's CurrentUICulture property for all
+		///   resource lookups using this strongly typed resource class.
+		/// </summary>
+		[global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+		internal static global::System.Globalization.CultureInfo Culture {
+			get {
+				return resourceCulture;
+			}
+			set {
+				resourceCulture = value;
+			}
+		}
+	}
 }
 ]]></arrayElement>
                   </arrayElements>
@@ -7377,19 +7379,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
               startId="Package\Load Data\Filter Universities.Outputs[FilteredUniversities]" />
             <path
               refId="Package\Load Data.Paths[Flat File Source Error Output2]"
-              endId="Package\Load Data\Union university errors.Inputs[Union All Input 1]"
-              name="Flat File Source Error Output"
-              startId="Package\Load Data\University Mappings File.Outputs[Flat File Source Error Output]" />
-            <path
-              refId="Package\Load Data.Paths[Flat File Source Error Output]"
               endId="Package\Load Data\UnionCourse Errors.Inputs[Union All Input 1]"
               name="Flat File Source Error Output"
               startId="Package\Load Data\Course Mappings File.Outputs[Flat File Source Error Output]" />
             <path
-              refId="Package\Load Data.Paths[Flat File Source Error Output1]"
+              refId="Package\Load Data.Paths[Flat File Source Error Output]"
               endId="Package\Load Data\Learners Errors.Inputs[Union All Input 1]"
               name="Flat File Source Error Output"
               startId="Package\Load Data\Learners File.Outputs[Flat File Source Error Output]" />
+            <path
+              refId="Package\Load Data.Paths[Flat File Source Error Output1]"
+              endId="Package\Load Data\Union university errors.Inputs[Union All Input 1]"
+              name="Flat File Source Error Output"
+              startId="Package\Load Data\University Mappings File.Outputs[Flat File Source Error Output]" />
             <path
               refId="Package\Load Data.Paths[Flat File Source Output]"
               endId="Package\Load Data\Learners Conversion.Inputs[Data Conversion Input]"
@@ -7442,19 +7444,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
               startId="Package\Load Data\Sort Learners Courses.Outputs[Sort Output]" />
             <path
               refId="Package\Load Data.Paths[Union All Output 12]"
-              endId="Package\Load Data\Course Errors.Inputs[Flat File Destination Input]"
-              name="Union All Output 1"
-              startId="Package\Load Data\UnionCourse Errors.Outputs[Union All Output 1]" />
-            <path
-              refId="Package\Load Data.Paths[Union All Output 1]"
               endId="Package\Load Data\University Errors.Inputs[Flat File Destination Input]"
               name="Union All Output 1"
               startId="Package\Load Data\Union university errors.Outputs[Union All Output 1]" />
             <path
-              refId="Package\Load Data.Paths[Union All Output 11]"
+              refId="Package\Load Data.Paths[Union All Output 1]"
               endId="Package\Load Data\Learners  Errors.Inputs[Flat File Destination Input]"
               name="Union All Output 1"
               startId="Package\Load Data\Learners Errors.Outputs[Union All Output 1]" />
+            <path
+              refId="Package\Load Data.Paths[Union All Output 11]"
+              endId="Package\Load Data\Course Errors.Inputs[Flat File Destination Input]"
+              name="Union All Output 1"
+              startId="Package\Load Data\UnionCourse Errors.Outputs[Union All Output 1]" />
             <path
               refId="Package\Load Data.Paths[Union All Output 13]"
               endId="Package\Load Data\Flat File Destination.Inputs[Flat File Destination Input]"
@@ -7542,9 +7544,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           TopLeft="14.5428617774222,19.3647075339582" />
         <ContainerLayout
           HeaderHeight="58.4"
-          IsExpanded="False"
+          IsExpanded="True"
           PanelSize="425.6,205.6"
-          Size="180.8,58.4"
+          Size="425.6,264"
           Id="Package\delete temp files"
           TopLeft="374.285720659762,356.352946174185" />
         <NodeLayout
@@ -7599,18 +7601,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="466.442863778436,307.717650791024">
+          TopLeft="468.200006897109,307.717650791024">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,48.6352953831615"
+              EndConnector="118.885713762653,48.635295383161"
               Start="0,0"
-              End="0,41.1352953831615">
+              End="118.885713762653,41.135295383161">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,41.1352953831615" />
+                    End="0,20.3176476915805" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.3176476915805"
+                    Point2="0,24.3176476915805"
+                    Point3="4,24.3176476915805" />
+                  <mssgle:LineSegment
+                    End="114.885713762653,24.3176476915805" />
+                  <mssgle:CubicBezierSegment
+                    Point1="114.885713762653,24.3176476915805"
+                    Point2="118.885713762653,24.3176476915805"
+                    Point3="118.885713762653,28.3176476915805" />
+                  <mssgle:LineSegment
+                    End="118.885713762653,41.135295383161" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7684,7 +7698,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Id="Package\Load Data\Course Conversion"
           TopLeft="493.000008259502,116.672270543847" />
         <NodeLayout
-          Size="184,41.6"
+          Size="178.4,41.6"
           Id="Package\Load Data\Course Mappings File"
           TopLeft="481.190484385102,29.0588239369509" />
         <NodeLayout
@@ -7775,18 +7789,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Data.Paths[Flat File Source Output1]"
-          TopLeft="574.495246322302,70.6588239369509">
+          TopLeft="573.095246322302,70.6588239369509">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,46.0134466068964"
+              EndConnector="0,46.0134466068961"
               Start="0,0"
-              End="0,38.5134466068964">
+              End="0,38.5134466068961">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,38.5134466068964" />
+                    End="0,38.5134466068961" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7831,6 +7845,42 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Data.Paths[Flat File Source Error Output2]"
+          TopLeft="659.590484385102,49.8588239369509">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="65.9197320518959,50.5512612917018"
+              Start="0,0"
+              End="58.4197320518959,50.5512612917018">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="34.086956296651,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="34.086956296651,0"
+                    Point2="38.086956296651,0"
+                    Point3="38.086956296651,4" />
+                  <mssgle:LineSegment
+                    End="38.086956296651,46.5512612917018" />
+                  <mssgle:CubicBezierSegment
+                    Point1="38.086956296651,46.5512612917018"
+                    Point2="38.086956296651,50.5512612917018"
+                    Point3="42.086956296651,50.5512612917018" />
+                  <mssgle:LineSegment
+                    End="58.4197320518959,50.5512612917018" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-25.539430422099,-17.609375,127.2527734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Data.Paths[Flat File Source Error Output1]"
           TopLeft="220.7868485628,51.278992024095">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7866,7 +7916,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load Data.Paths[Flat File Source Error Output1]"
+          Id="Package\Load Data.Paths[Flat File Source Error Output]"
           TopLeft="1056.04355175715,52.4879553347719">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7898,42 +7948,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="22.8906223488335,33.751820232238,127.2527734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Data.Paths[Flat File Source Error Output]"
-          TopLeft="665.190484385102,49.8588239369509">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="60.3197320518959,50.5512612917018"
-              Start="0,0"
-              End="52.8197320518959,50.5512612917018">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="30.8514007410954,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="30.8514007410954,0"
-                    Point2="34.8514007410954,0"
-                    Point3="34.8514007410954,4" />
-                  <mssgle:LineSegment
-                    End="34.8514007410954,46.5512612917018" />
-                  <mssgle:CubicBezierSegment
-                    Point1="34.8514007410954,46.5512612917018"
-                    Point2="34.8514007410954,50.5512612917018"
-                    Point3="38.8514007410954,50.5512612917018" />
-                  <mssgle:LineSegment
-                    End="52.8197320518959,50.5512612917018" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-28.7749859776546,-17.609375,127.2527734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -8473,6 +8487,28 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Data.Paths[Union All Output 12]"
+          TopLeft="378.700005066395,115.885715327543">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,35.4410841803789"
+              Start="0,0"
+              End="0,27.9410841803789">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.9410841803789" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Data.Paths[Union All Output 11]"
           TopLeft="809.680964810752,126.810085228653">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -8494,7 +8530,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load Data.Paths[Union All Output 11]"
+          Id="Package\Load Data.Paths[Union All Output 1]"
           TopLeft="1252.12178823539,165.042018139651">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -8507,28 +8543,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,50.6736712092763" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Data.Paths[Union All Output 1]"
-          TopLeft="378.700005066395,115.885715327543">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,35.4410841803789"
-              Start="0,0"
-              End="0,27.9410841803789">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.9410841803789" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">MYNEWLAPTOP</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxe1WuEPY/kCxCnmIM+PpkAAAAAACAAAAAAAQZgAAAAEAACAAAABBkbrr+YMkazmTt7rF73pGhbtdayXuX7JC4koZxHi1gwAAAAAOgAAAAAIAACAAAADPRfe1nZ0Wd1SdSkK4lR30h772mjaB1ae2i8l8m0wzqJAAAAD8mD+OxlG+suRscaGCgOBgIyO2ZFHKYirdla2geUuSwa1iFHRjf1qMducQCCHYtbSjdZrt6olDU/dKzpGeY4C/MQZ7RZQOcVRVNH82lOy61AADUNkClsfk1YF+1iCvgP8dYAb2YGcih19wl70+iDrQ9yhnCVlhKJ1dfDZkOn0fmxzXanKKL3mVYJX6Cg/qYp5AAAAA7QhIBeKNmpdiNHZvT6iomHEyHKdNFaXEvIO65+Wmh8g/G9OmrQVWEqnTxDp8xxBMwNelS4inSgBpyXExDbp+sw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxe1WuEPY/kCxCnmIM+PpkAAAAAACAAAAAAAQZgAAAAEAACAAAACF2FYJzXMi/Bzm/2gnqXrkvJ6jFGUblOpsVagMk04C3QAAAAAOgAAAAAIAACAAAABfkqXbhl6PdH5dreDxC0LgyWMPpGc1C4CGQn86X3i4L5AAAACrKB+ru3A8eARQaABNCaJqMvKmAS1XPP6X/zFde5Mf0Wco2m2ugc11CN6nEGovBPm04VHfEDjbK8eJka9VzddEZghudPLwcMNb7uBauHnfFOWwyJSSaC6G0B3ND92TOHhpT5ZgSqeW84WzyrFRiQ8BIm+7IXUFi+oFNHnmMpLB6jQGikRh6S8uabEfjYXtj/9AAAAAkOCFzx3ImUJ9mYAlt74TcRTPKI0GI8ozy+ogqSbij0EqYTtOWvk9DkbfWYh6IEV/FHXPJXZd6fuF1laex+UtkQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">87</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">100</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{0D383FE6-2CA0-41A6-A149-1EA84ADDE829}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{DD4E44B9-B37D-4EF7-9BD1-CA15995B7E71}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -62,7 +62,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">1</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\Desktop\Avado\Input\CourseMappings.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\source\repos\Avado\Input\CourseMappings.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -76,7 +76,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\Desktop\Avado\Errors</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\source\repos\Avado\Errors</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -104,7 +104,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">1</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\Desktop\Avado\Input\TestData_Learners.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\source\repos\Avado\Input\TestData_Learners.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -118,7 +118,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">1</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\Desktop\Avado\Output\TargetData_Learners.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\source\repos\Avado\Output\TargetData_Learners.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -132,7 +132,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\Desktop\Avado\Temp</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\source\repos\Avado\Temp</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -146,7 +146,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">1</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\Desktop\Avado\Input\UniversityMappings.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\source\repos\Avado\Input\UniversityMappings.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -936,21 +936,6 @@
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
-                  </SSIS:Properties>
-                </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Output.ConnectionString">
-                  <SSIS:Properties>
-                    <SSIS:Property SSIS:Name="ID">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="CreationName">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="Description">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Bruce\Desktop\Avado\Output\TargetData_Learners.csv</SSIS:Property>
-                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.Output.DataRowsToSkip">
